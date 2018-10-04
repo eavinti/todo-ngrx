@@ -21,12 +21,12 @@ ng new todo
 
 ## Añadir template en proyecto
 
-  [todomvc.com](http://todomvc.com/)
-    [index.html](https://github.com/tastejs/todomvc/blob/gh-pages/examples/vanillajs/index.html)
-    [index.css](https://github.com/tastejs/todomvc/blob/gh-pages/examples/vanillajs/node_modules/todomvc-app-css/index.css)
-  Respaldo:
-    [index.html](https://github.com/eavinti/todo-ngrx/blob/master/src/assets/index.html)
-    [index.css](https://github.com/eavinti/todo-ngrx/blob/master/src/assets/index.css)
+  * [todomvc.com](http://todomvc.com/)
+    * [index.html](https://github.com/tastejs/todomvc/blob/gh-pages/examples/vanillajs/index.html)
+    * [index.css](https://github.com/tastejs/todomvc/blob/gh-pages/examples/vanillajs/node_modules/todomvc-app-css/index.css)
+  * Respaldo:
+    * [index.html](https://github.com/eavinti/todo-ngrx/blob/master/src/assets/index.html)
+    * [index.css](https://github.com/eavinti/todo-ngrx/blob/master/src/assets/index.css)
 
 
 ## Instalar NgRx

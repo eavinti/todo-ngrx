@@ -21,24 +21,24 @@ ng new todo
 
 ## Añadir template en proyecto
 
-    * [todomvc.com](http://todomvc.com/)
-        * [index.html](https://github.com/tastejs/todomvc/blob/gh-pages/examples/vanillajs/index.html)
-        * [index.css](https://github.com/tastejs/todomvc/blob/gh-pages/examples/vanillajs/node_modules/todomvc-app-css/index.css)
-    * Respaldo:
-        * [index.html](https://github.com/eavinti/todo-ngrx/blob/master/src/assets/index.html)
-        * [index.css](https://github.com/eavinti/todo-ngrx/blob/master/src/assets/index.css)
+  [todomvc.com](http://todomvc.com/)
+    [index.html](https://github.com/tastejs/todomvc/blob/gh-pages/examples/vanillajs/index.html)
+    [index.css](https://github.com/tastejs/todomvc/blob/gh-pages/examples/vanillajs/node_modules/todomvc-app-css/index.css)
+  Respaldo:
+    [index.html](https://github.com/eavinti/todo-ngrx/blob/master/src/assets/index.html)
+    [index.css](https://github.com/eavinti/todo-ngrx/blob/master/src/assets/index.css)
 
 
 ## Instalar NgRx
    [NgRx](https://github.com/ngrx/platform/blob/master/docs/store/) 
     
-   > npm install @ngrx/store --save
+   npm install @ngrx/store --save
 
     
 ## Instalar store-devtools
     [store-devtools](https://github.com/ngrx/store-devtools)
     
-    > npm install @ngrx/store-devtools@6.1.0 --save
+    npm install @ngrx/store-devtools@6.1.0 --save
     
     
 ## Setup  NgRx

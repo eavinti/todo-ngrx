@@ -22,11 +22,11 @@ ng new todo
 ## Añadir template en proyecto
 
     * [todomvc.com](http://todomvc.com/)
-    * html: - [index.html](https://github.com/tastejs/todomvc/blob/gh-pages/examples/vanillajs/index.html)
-    * css:  - [index.css](https://github.com/tastejs/todomvc/blob/gh-pages/examples/vanillajs/node_modules/todomvc-app-css/index.css)
+        * [index.html](https://github.com/tastejs/todomvc/blob/gh-pages/examples/vanillajs/index.html)
+        * [index.css](https://github.com/tastejs/todomvc/blob/gh-pages/examples/vanillajs/node_modules/todomvc-app-css/index.css)
     * Respaldo:
-    * html  - [index.html](https://github.com/eavinti/todo-ngrx/blob/master/src/assets/index.html)
-    * css   - [index.css](https://github.com/eavinti/todo-ngrx/blob/master/src/assets/index.css)
+        * [index.html](https://github.com/eavinti/todo-ngrx/blob/master/src/assets/index.html)
+        * [index.css](https://github.com/eavinti/todo-ngrx/blob/master/src/assets/index.css)
 
 
 ## Instalar NgRx
@@ -45,31 +45,31 @@ ng new todo
     [ngrx README.md](https://github.com/ngrx/platform/blob/master/docs/store/README.md)
     
     
-    > import { StoreModule } from '@ngrx/store';
-    > 
-    > @NgModule({
-    >   imports: [
-    >     BrowserModule,
-    >     StoreModule.provideStore({ todos: todoReducer })
-    >   ]
-    > })   
+     import { StoreModule } from '@ngrx/store';
+     
+    @NgModule({
+      imports: [
+        BrowserModule,
+        StoreModule.provideStore({ todos: todoReducer })
+      ]
+    })   
     
     
 ## Setup  store-devtools
     [store-devtools README.md](https://github.com/ngrx/store-devtools/blob/master/README.md)
      
     
-    > import {StoreDevtoolsModule} from '@ngrx/store-devtools';
-    > 
-    > @NgModule({
-    >   imports: [
-    >     StoreModule.provideStore(rootReducer),
-    >     // Note that you must instrument after importing StoreModule
-    >     StoreDevtoolsModule.instrumentStore({
-    >       maxAge: 25
-    >     })
-    >   ]
-    > })   
+    import {StoreDevtoolsModule} from '@ngrx/store-devtools';
+     
+    @NgModule({
+      imports: [
+        StoreModule.provideStore(rootReducer),
+        // Note that you must instrument after importing StoreModule
+        StoreDevtoolsModule.instrumentStore({
+          maxAge: 25
+        })
+      ]
+    })   
      
     
     

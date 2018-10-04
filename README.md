@@ -1,6 +1,6 @@
-# Todo con NgRx
+# ToDo list con NgRx
 
-TODO app usando Angular 6 y NgRx
+TODO list usando Angular 6 y NgRx
 
 ## Crear proyecto
 ng new todo

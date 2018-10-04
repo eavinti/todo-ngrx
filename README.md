@@ -2,7 +2,7 @@
 
 > TODO list usando Angular 6 y NgRx
 
-* **DEMO: ** - [github.eavinti.com](http://github.eavinti.com/)
+* **DEMO:** - [github.eavinti.com](http://github.eavinti.com/)
 
 ## Crear proyecto
 ng new todo
